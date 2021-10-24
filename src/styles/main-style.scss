@@ -57,3 +57,13 @@ body {
         text-decoration: none;
     }
 }
+
+.showcase {
+    padding: 0;
+    margin: 0;
+    h1 {
+        font-size: 46px;
+        font-weight: 700;
+        color: $white;
+    }
+}

@@ -65,4 +65,15 @@ body {
   font-weight: 700;
   text-decoration: none;
 }
+
+.showcase {
+  padding: 0;
+  margin: 0;
+}
+
+.showcase h1 {
+  font-size: 46px;
+  font-weight: 700;
+  color: #ffffff;
+}
 /*# sourceMappingURL=main-style.css.map */

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+// import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import store from "./redux/store";
 import { Provider } from "react-redux";
@@ -14,14 +14,20 @@ ReactDOM.render(
 
     <header className="header">
       <div className="container">
+
         <nav className="nav">
           <a href="/" className="site-name">Borgar</a>
           <div className="nav-copy">
-            <a href="#" className="links">Meet the Team</a>
-            <a href="#" className="links">FAQs</a>
-            <a href="#" className="white-btn">Mint Me!</a>
+            <a href="/" className="links">Meet the Team</a>
+            <a href="/" className="links">FAQs</a>
+            <a href="/" className="white-btn">Mint Me!</a>
           </div>
         </nav>
+
+        <div className="showcase">
+          <h1> Where Everyone Eats</h1>
+        </div>
+
       </div>
     </header>
 
