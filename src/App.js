@@ -29,7 +29,8 @@ function App() {
     if (blockchain.account !== "" && blockchain.smartContract !== null) {
       dispatch(fetchData(blockchain.account));
     }
-  }, [blockchain.smartContract, dispatch]);
+// eslint-disable-next-line
+}, [blockchain.smartContract, dispatch]);
 
   return (
     <s.Screen>
