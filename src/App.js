@@ -16,8 +16,9 @@ export const StyledButton = styled.button`
     font-weight: 700;
     text-decoration: none;
     border-radius: 5px;
-    padding: 18px 60px;
+    padding: 15px 50px;
     margin: 0 0 0 40px;
+    cursor: pointer;
 `;
 
 function App() {
@@ -36,7 +37,6 @@ function App() {
     <s.Screen>
       {blockchain.account === "" || blockchain.smartContract === null ? (
         <s.Container flex={1} ai={"center"} jc={"center"}>
-          <s.SpacerSmall />
           <StyledButton
             onClick={(e) => {
               e.preventDefault();
@@ -45,7 +45,6 @@ function App() {
           >
             Mint Me!
           </StyledButton>
-          <s.SpacerSmall />
           {blockchain.errorMsg !== "" ? (
             <s.TextDescription>{blockchain.errorMsg}</s.TextDescription>
           ) : null}
@@ -60,5 +59,7 @@ function App() {
     </s.Screen>
   );
 }
+
+console.log("Site created by @TechJohnson www.techjohnson.com");
 
 export default App;
