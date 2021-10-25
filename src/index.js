@@ -85,7 +85,7 @@ ReactDOM.render(
               <h2 style={{color: '#0FF289', textShadow: '0 10px 75px rgba(15, 242, 137, 1.0)',}}>CryptoKitchenLabs </h2>
               <h3>Who are we?</h3>
               <p style={{paddingBottom: '40px'}}>CryptoKitchenLabs (CKL) We are a collective of creatives who are hell-bent on making positive impact through digital art. We’re musicians, graphic artists, content creators, crypto investors, NFT enthusiasts, and most importantly, BORGAR.</p>
-              <a href="#" style={{
+              <a href="/" style={{
                 background: "#0FF289",
                 color: '#ffffff',
                 borderRadius: '5px',
