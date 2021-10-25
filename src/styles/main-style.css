@@ -120,4 +120,51 @@ body {
   padding-top: 50px;
   padding-bottom: 75px;
 }
+
+.ntf-section {
+  padding: 50px 0;
+  margin: 0;
+}
+
+.ntf-section .twoSplit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ntf-section .twoSplit div {
+  width: 50%;
+}
+
+.ntf-section .twoSplit div h2 {
+  font-size: 46px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.ntf-section .twoSplit div h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.ntf-section .twoSplit div p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #938AA5;
+  line-height: 2;
+}
+
+.ntf-section .twoSplit div img {
+  width: 100%;
+}
 /*# sourceMappingURL=main-style.css.map */

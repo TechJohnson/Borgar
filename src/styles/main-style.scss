@@ -1,5 +1,6 @@
 $white: #ffffff;
 $black: #000000;
+$purple: #7836FF;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
 
 body {
@@ -92,5 +93,40 @@ body {
     .social {
         padding-top: 50px;
         padding-bottom: 75px;
+    }
+}
+
+.ntf-section {
+    padding: 50px 0;
+    margin: 0;
+    .twoSplit {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div {
+            width: 50%;
+            h2 {
+                font-size: 46px;
+                font-weight: 700;
+                padding-bottom: 15px;
+                margin: 0;
+            }
+            h3 {
+                font-size: 28px;
+                font-weight: 700;
+                color: $white;
+                padding-bottom: 40px;
+                margin: 0;
+            }
+            p {
+                font-size: 1.125rem;
+                font-weight: 500;
+                color: #938AA5;
+                line-height: 2;
+            }
+            img {
+                width: 100%;
+            }
+        }
     }
 }

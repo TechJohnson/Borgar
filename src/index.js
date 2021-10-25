@@ -11,6 +11,7 @@ import discord from './images/discord-icon-small.png';
 import twitter from './images/twitter-icon-small.png';
 import opensea from './images/opensea-icon-small.png';
 import logo from './images/borgar-logo.png';
+import thong from './images/borgar-thong.png';
 
 
 ReactDOM.render(
@@ -47,6 +48,28 @@ ReactDOM.render(
 
       </div>
     </header>
+
+
+
+    <main className="main-content">
+
+      <div className="ntf-section">
+        <div className="container">
+          <div className="twoSplit">
+            <div>
+              <h2 style={{color: '#7836FF', textShadow: '0 10px 75px rgba(120, 54, 255, 1.0)',}}>10,000 Unique NFTs</h2>
+              <h3>Launching on the ETH Blockchaim</h3>
+              <p>Borgar is a collection of 10,000 unique NFTs launching on the ETH Blockchain on 11/5. Our mission is to donate 10% of Mint and 10% of Monthly Royalties to charities that provide meals to those in need.</p>
+            </div>
+            <div>
+            <img src={thong} alt="Logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
 
 
   </Provider>,
