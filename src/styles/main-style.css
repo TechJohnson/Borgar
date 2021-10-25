@@ -142,14 +142,18 @@ body {
   width: 49%;
 }
 
-.ntf-section .twoSplit div h2 {
+.ntf-section .twoSplit div img {
+  width: 100%;
+}
+
+h2 {
   font-size: 46px;
   font-weight: 700;
   padding-bottom: 15px;
   margin: 0;
 }
 
-.ntf-section .twoSplit div h3 {
+h3 {
   font-size: 28px;
   font-weight: 700;
   color: #ffffff;
@@ -157,14 +161,145 @@ body {
   margin: 0;
 }
 
-.ntf-section .twoSplit div p {
+p {
   font-size: 1.125rem;
   font-weight: 500;
   color: #938AA5;
   line-height: 2;
 }
 
-.ntf-section .twoSplit div img {
-  width: 100%;
+.roadmap-section {
+  padding: 100px 0 50px 0;
+  margin: 0;
+}
+
+.react-tabs {
+  padding: 50px 0;
+  margin: 0;
+}
+
+.react-tabs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.react-tabs #react-tabs-0 {
+  color: #0FF289;
+  border-bottom: 2px solid #0FF289;
+}
+
+.react-tabs #react-tabs-2 {
+  color: #7836FF;
+  border-bottom: 2px solid #7836FF;
+}
+
+.react-tabs .react-tabs__tab {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 49%;
+  padding: 10px 200px;
+}
+
+.react-tabs .react-tabs__tab:hover {
+  background: rgba(10, 3, 24, 0.4);
+}
+
+.react-tabs .react-tabs__tab--selected {
+  color: yellow;
+  background: #0A0318;
+}
+
+.react-tabs .react-tabs__tab-panel {
+  padding: 0;
+  margin: 0;
+}
+
+.react-tabs .react-tabs__tab-panel .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background: rgba(147, 138, 165, 0.06);
+  border-radius: 10px;
+  padding: 30px;
+  margin: 10px 0;
+}
+
+.react-tabs .react-tabs__tab-panel .box img {
+  height: 100%;
+  padding-right: 30px;
+}
+
+.react-tabs .react-tabs__tab-panel .box h2 {
+  color: #ffffff;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.react-tabs .react-tabs__tab-panel .box p {
+  padding: 0;
+  margin: 0;
+}
+
+.react-tabs .react-tabs__tab-panel .box .content {
+  padding-left: 15px;
+}
+
+.react-tabs .react-tabs__tab-panel .box .step-mint {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0FF289;
+  padding: 0;
+  margin: -5px 0 0 0;
+}
+
+.react-tabs .react-tabs__tab-panel .box .step-time {
+  font-size: 16px;
+  font-weight: 700;
+  color: #7836FF;
+  padding: 0;
+  margin: -5px 0 0 0;
+}
+
+.discord-section {
+  background-image: url("../images/discord-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  margin: 0;
+}
+
+.discord-section .discord-content {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  max-width: 810px;
+  padding: 20px 20px 40px 20px;
+  margin: 0;
+}
+
+.discord-section h2 {
+  color: #ffffff;
+  font-size: 46px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.discord-section p {
+  color: #ffffff;
+  padding-bottom: 40px;
 }
 /*# sourceMappingURL=main-style.css.map */

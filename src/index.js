@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
+import Roadmap from "./roadmap";
+import Discord from "./discord";
 import reportWebVitals from "./reportWebVitals";
 import store from "./redux/store";
 import { Provider } from "react-redux";
@@ -13,9 +15,9 @@ import opensea from './images/opensea-icon-small.png';
 import logo from './images/borgar-logo.png';
 import thong from './images/borgar-thong.png';
 
-
 ReactDOM.render(
   <Provider store={store}>
+    
 
 
     <header className="header">
@@ -68,8 +70,11 @@ ReactDOM.render(
         </div>
       </div>
 
-    </main>
+      <Roadmap />
 
+      <Discord />
+
+    </main>
 
 
   </Provider>,

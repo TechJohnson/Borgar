@@ -105,28 +105,137 @@ body {
         justify-content: space-between;
         div {
             width: 49%;
-            h2 {
-                font-size: 46px;
-                font-weight: 700;
-                padding-bottom: 15px;
-                margin: 0;
-            }
-            h3 {
-                font-size: 28px;
-                font-weight: 700;
-                color: $white;
-                padding-bottom: 40px;
-                margin: 0;
-            }
-            p {
-                font-size: 1.125rem;
-                font-weight: 500;
-                color: #938AA5;
-                line-height: 2;
-            }
             img {
                 width: 100%;
             }
         }
+    }
+}
+
+h2 {
+    font-size: 46px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    margin: 0;
+}
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: $white;
+    padding-bottom: 40px;
+    margin: 0;
+}
+p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #938AA5;
+    line-height: 2;
+}
+
+.roadmap-section {
+    padding: 100px 0 50px 0;
+    margin: 0;
+}
+
+.react-tabs {
+    padding: 50px 0;
+    margin: 0;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+    #react-tabs-0 {
+        color: #0FF289;
+        border-bottom: 2px solid #0FF289;
+    }
+    #react-tabs-2 {
+        color: #7836FF;
+        border-bottom: 2px solid #7836FF;
+    }
+    .react-tabs__tab {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 49%;
+        padding: 10px 200px;
+        &:hover {
+            background: rgba($color: #0A0318, $alpha: .40);
+        }
+    }
+    .react-tabs__tab--selected {
+        color: yellow;
+        background: #0A0318;
+    }
+    .react-tabs__tab-panel {
+        padding: 0;
+        margin: 0;
+        .box {
+            display: flex;
+            align-items: flex-start;
+            background: rgba($color: #938AA5, $alpha: .06);
+            border-radius: 10px;
+            padding: 30px;
+            margin: 10px 0;
+            img {
+                height: 100%;
+                padding-right: 30px;
+            }
+            h2 {
+                color: $white;
+                font-size: 20px;
+                padding-bottom: 15px;
+            }
+            p {
+                padding: 0;
+                margin: 0;
+            }
+            .content {
+                padding-left: 15px;
+            }
+            .step-mint {
+                font-size: 16px;
+                font-weight: 700;
+                color: #0FF289;
+                padding: 0;
+                margin: -5px 0 0 0;    
+            }
+            .step-time {
+                font-size: 16px;
+                font-weight: 700;
+                color: #7836FF;
+                padding: 0;
+                margin: -5px 0 0 0;    
+            }
+        }
+    }
+}
+
+.discord-section {
+    background-image: url('../images/discord-bg.png'); 
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    margin: 0;
+    .discord-content {
+        background: rgba($color: $black, $alpha: .50);
+        border-radius: 10px;
+        max-width: 810px;
+        padding: 20px 20px 40px 20px;
+        margin: 0;
+    }
+    h2 {
+        color: $white;
+        font-size: 46px;
+        font-weight: 700;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+    p {
+        color: $white;
+        padding-bottom: 40px;
     }
 }
