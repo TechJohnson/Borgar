@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import App from "./App";
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import store from "./redux/store";
 import { Provider } from "react-redux";
 import "./styles/reset.css";
 import "./styles/theme.css";
 import "./styles/main-style.css";
+import discord from './images/discord-icon-small.png';
+import twitter from './images/twitter-icon-small.png';
+import opensea from './images/opensea-icon-small.png';
 
 ReactDOM.render(
   <Provider store={store}>
@@ -20,12 +23,24 @@ ReactDOM.render(
           <div className="nav-copy">
             <a href="/" className="links">Meet the Team</a>
             <a href="/" className="links">FAQs</a>
-            <a href="/" className="white-btn">Mint Me!</a>
+            <App />
           </div>
         </nav>
 
         <div className="showcase">
           <h1> Where Everyone Eats</h1>
+          <a href="/" className="white-btn-2">I Want A Borgar!</a>
+          <div className="social">
+            <a href="/">
+              <img src={opensea} alt="Logo" />
+            </a>
+            <a href="/">
+              <img src={discord} alt="Logo" />
+            </a>
+            <a href="/">
+              <img src={twitter} alt="Logo" />
+            </a>
+          </div>
         </div>
 
       </div>
