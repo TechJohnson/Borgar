@@ -15,6 +15,7 @@ import opensea from './images/opensea-icon-small.png';
 import logo from './images/borgar-logo.png';
 import thong from './images/borgar-thong.png';
 import borgarBlack from './images/borgar-black.png';
+import AboutSection from "./about-us";
 
 ReactDOM.render(
   <Provider store={store}>
@@ -75,7 +76,7 @@ ReactDOM.render(
 
       <Discord />
 
-      <div className="ntf-section">
+      <div className="about-section">
         <div className="container">
           <div className="twoSplit">
             <div>
@@ -106,6 +107,8 @@ ReactDOM.render(
           </div>
         </div>
       </div>
+
+      <AboutSection />
 
     </main>
 

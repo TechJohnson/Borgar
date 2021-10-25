@@ -112,6 +112,22 @@ body {
     }
 }
 
+.about-section {
+    padding: 50px 0;
+    margin: 0;
+    .twoSplit {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div {
+            width: 49%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
 h2 {
     font-size: 46px;
     font-weight: 700;
@@ -237,5 +253,50 @@ p {
     p {
         color: $white;
         padding-bottom: 25px;
+    }
+}
+
+.box-about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .about-box {
+        display: flex;
+        align-items: flex-start;
+        background: rgba($color: #938AA5, $alpha: .06);
+        border-radius: 10px;
+        width: 49%;
+        padding: 30px;
+        margin: 10px 0;
+        img {
+            height: 100%;
+            padding-right: 30px;
+        }
+        h2 {
+            color: $white;
+            font-size: 20px;
+            padding-bottom: 15px;
+        }
+        p {
+            padding: 0;
+            margin: 0;
+        }
+        .content {
+            padding-left: 15px;
+        }
+        .step-mint {
+            font-size: 16px;
+            font-weight: 700;
+            color: #0FF289;
+            padding: 0;
+            margin: -5px 0 0 0;    
+        }
+        .step-time {
+            font-size: 16px;
+            font-weight: 700;
+            color: #7836FF;
+            padding: 0;
+            margin: -5px 0 0 0;    
+        }
     }
 }
