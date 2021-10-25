@@ -217,8 +217,8 @@ p {
 .discord-section {
     background-image: url('../images/discord-bg.png'); 
     background-size: cover;
-    background-position: center;
-    padding: 200px 0;
+    background-position: top;
+    padding: 200px 0 100px 0;
     margin: 0;
     .discord-content {
         background: rgba($color: $black, $alpha: .50);
@@ -236,6 +236,6 @@ p {
     }
     p {
         color: $white;
-        padding-bottom: 40px;
+        padding-bottom: 25px;
     }
 }

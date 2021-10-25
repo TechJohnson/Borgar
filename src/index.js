@@ -14,6 +14,7 @@ import twitter from './images/twitter-icon-small.png';
 import opensea from './images/opensea-icon-small.png';
 import logo from './images/borgar-logo.png';
 import thong from './images/borgar-thong.png';
+import borgarBlack from './images/borgar-black.png';
 
 ReactDOM.render(
   <Provider store={store}>
@@ -73,6 +74,38 @@ ReactDOM.render(
       <Roadmap />
 
       <Discord />
+
+      <div className="ntf-section">
+        <div className="container">
+          <div className="twoSplit">
+            <div>
+              <img src={borgarBlack} alt="Logo" />
+            </div>
+            <div style={{paddingLeft: '20px'}}>
+              <h2 style={{color: '#0FF289', textShadow: '0 10px 75px rgba(15, 242, 137, 1.0)',}}>CryptoKitchenLabs </h2>
+              <h3>Who are we?</h3>
+              <p style={{paddingBottom: '40px'}}>CryptoKitchenLabs (CKL) We are a collective of creatives who are hell-bent on making positive impact through digital art. We’re musicians, graphic artists, content creators, crypto investors, NFT enthusiasts, and most importantly, BORGAR.</p>
+              <a href="#" style={{
+                background: "#0FF289",
+                color: '#ffffff',
+                borderRadius: '5px',
+                textDecoration: 'none',
+                fontSize: '1.125rem',
+                fontWeight: '700',
+                boxShadow: '0 5px 25px rgba(15, 242, 137, .65)',
+                padding: '10px 40px',
+                margin: '0' 
+              }}>About Us</a>
+              <a href="https://discord.gg/borgar"  target="_blank" rel="noopener noreferrer nofollow" style={{
+                fontSize: '1.125rem',
+                color: '#534868',
+                padding: '0',
+                marginLeft: '50px'
+              }}>Join the Discord Community</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </main>
 

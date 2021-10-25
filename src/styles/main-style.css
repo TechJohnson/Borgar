@@ -277,8 +277,8 @@ p {
 .discord-section {
   background-image: url("../images/discord-bg.png");
   background-size: cover;
-  background-position: center;
-  padding: 200px 0;
+  background-position: top;
+  padding: 200px 0 100px 0;
   margin: 0;
 }
 
@@ -300,6 +300,6 @@ p {
 
 .discord-section p {
   color: #ffffff;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 /*# sourceMappingURL=main-style.css.map */
