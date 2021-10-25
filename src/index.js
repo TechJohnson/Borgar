@@ -13,7 +13,6 @@ import opensea from './images/opensea-icon-small.png';
 import logo from './images/borgar-logo.png';
 
 
-
 ReactDOM.render(
   <Provider store={store}>
 
@@ -58,7 +57,3 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-
-
-// THIS IS THE WORKING APP PAGE FOR LATER     {/* <App /> */}
