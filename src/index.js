@@ -16,12 +16,11 @@ import logo from './images/borgar-logo.png';
 import thong from './images/borgar-thong.png';
 import borgarBlack from './images/borgar-black.png';
 import AboutSection from "./about-us";
+import Footer from "./footer";
 
 ReactDOM.render(
   <Provider store={store}>
     
-
-
     <header className="header">
       <div className="container">
 
@@ -109,6 +108,8 @@ ReactDOM.render(
       </div>
 
       <AboutSection />
+
+      <Footer />
 
     </main>
 

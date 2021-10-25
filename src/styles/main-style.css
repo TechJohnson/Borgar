@@ -388,4 +388,35 @@ p {
   padding: 0;
   margin: -5px 0 0 0;
 }
+
+.footer-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.footer-section .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+}
+
+.footer-section p {
+  text-align: center;
+  padding-top: 50px;
+  margin: 0;
+}
 /*# sourceMappingURL=main-style.css.map */
