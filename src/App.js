@@ -37,7 +37,7 @@ function App() {
     <s.Screen>
       {blockchain.account === "" || blockchain.smartContract === null ? (
         <s.Container flex={1} ai={"center"} jc={"center"}>
-          <StyledButton
+          <StyledButton className="mint-button"
             onClick={(e) => {
               e.preventDefault();
               dispatch(connect());
