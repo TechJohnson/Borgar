@@ -61,7 +61,7 @@ ReactDOM.render(
           <div className="twoSplit">
             <div>
               <h2 style={{color: '#7836FF', textShadow: '0 10px 75px rgba(120, 54, 255, 1.0)',}}>10,000 Unique NFTs</h2>
-              <h3>Launching on the ETH Blockchaim</h3>
+              <h3>Launching on the ETH Blockchain</h3>
               <p>Borgar is a collection of 10,000 unique NFTs launching on the ETH Blockchain on 11/5. Our mission is to donate 10% of Mint and 10% of Monthly Royalties to charities that provide meals to those in need.</p>
             </div>
             <div>
