@@ -10,7 +10,7 @@ const Discord = () => {
             <div className="container">
                 <div className="discord-content">
                     <h2>Join the Community</h2>
-                    <p>Borgar Discord already has over 500 members! If you want to join the #BorgarArmy it’s here. Join us to get the news as soon as possible and follow our latest announcements.</p>
+                    <p>Borgar Discord already has over 500 members! If you want to join the #Borgarmy it’s here. Join us to get the news as soon as possible and follow our latest announcements.</p>
                     <a href="https://discord.gg/borgar" target="_blank" rel="noopener noreferrer nofollow" style={{
                         display: 'inline-flex',
                         alignItems: 'center',
