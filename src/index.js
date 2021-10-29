@@ -25,7 +25,7 @@ ReactDOM.render(
       <div className="container">
 
         <nav className="nav">
-          <img src={logo} alt="" style={{width: '150px'}} />
+          <a href="/"><img src={logo} alt="" style={{width: '150px'}} /></a>
           <div className="nav-copy">
             <a href="/" className="links">Meet the Team</a>
             <a href="#faq" className="links">FAQs</a>
