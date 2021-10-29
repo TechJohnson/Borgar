@@ -28,8 +28,8 @@ ReactDOM.render(
           <img src={logo} alt="" style={{width: '150px'}} />
           <div className="nav-copy">
             <a href="/" className="links">Meet the Team</a>
-            <a href="/" className="links">FAQs</a>
-            <App />
+            <a href="#faq" className="links">FAQs</a>
+            {/* <App /> */}
           </div>
         </nav>
 

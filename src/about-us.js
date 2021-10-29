@@ -5,7 +5,7 @@ const AboutSection = () => {
 
     return (
 
-        <div className="roadmap-section">
+        <div className="roadmap-section" id="faq">
             <div className="container">
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                     <h2 style={{color: '#7836FF', textShadow: '0 10px 75px rgba(120, 54, 255, 1.0)', textAlign: 'center'}}>Learn About Us</h2>
