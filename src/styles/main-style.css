@@ -215,7 +215,8 @@ body {
     background: rgba(10, 3, 24, 0.4);
   }
   .react-tabs .react-tabs__tab--selected {
-    color: yellow;
+    -webkit-box-shadow: 0 5px 25px rgba(255, 255, 255, 0.125);
+            box-shadow: 0 5px 25px rgba(255, 255, 255, 0.125);
     background: #0A0318;
   }
   .react-tabs .react-tabs__tab-panel {
@@ -605,7 +606,8 @@ body {
     background: rgba(10, 3, 24, 0.4);
   }
   .react-tabs .react-tabs__tab--selected {
-    color: yellow;
+    -webkit-box-shadow: 0 5px 25px rgba(255, 255, 255, 0.125);
+            box-shadow: 0 5px 25px rgba(255, 255, 255, 0.125);
     background: #0A0318;
   }
   .react-tabs .react-tabs__tab-panel {

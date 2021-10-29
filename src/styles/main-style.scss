@@ -185,7 +185,7 @@ body {
             }
         }
         .react-tabs__tab--selected {
-            color: yellow;
+            box-shadow: 0 5px 25px rgba($color: #ffffff, $alpha: .125);
             background: #0A0318;
         }
         .react-tabs__tab-panel {
@@ -510,7 +510,7 @@ body {
             }
         }
         .react-tabs__tab--selected {
-            color: yellow;
+            box-shadow: 0 5px 25px rgba($color: #ffffff, $alpha: .125);
             background: #0A0318;
         }
         .react-tabs__tab-panel {
