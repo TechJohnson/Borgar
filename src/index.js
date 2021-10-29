@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+// import App from "./App";
 import Roadmap from "./roadmap";
 import Discord from "./discord";
 import reportWebVitals from "./reportWebVitals";
