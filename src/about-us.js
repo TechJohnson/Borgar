@@ -31,7 +31,7 @@ const AboutSection = () => {
                         <p className="step-time">.03</p>
                         <div className="content">
                             <h2>How to mint a Borgar?</h2>
-                            <p>You can mint a Borgar right here on our website on Nov. 5 by connecting your MetaMask wallet. For info on how to make a MetaMask wallet, please join our discord.</p>
+                            <p>You can mint a Borgar right here on our website on Nov. 5 by connecting your MetaMask wallet. For info on how to make a MetaMask wallet, please <a href="https://discord.gg/borgar">join our discord</a>.</p>
                         </div>
                     </div>
                     <div className="about-box">
