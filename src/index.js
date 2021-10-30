@@ -35,7 +35,7 @@ ReactDOM.render(
 
         <div className="showcase">
           <h1> Where Everyone Eats</h1>
-          <a href="/" className="white-btn-2">I Want A Borgar!</a>
+          <a href="#faq" className="white-btn-2">I Want A Borgar!</a>
           <div className="social">
             {/* <a href="https://twitter.com/BorgarNFT" target="_blank" rel="noopener noreferrer nofollow">
               <img src={opensea} alt="Logo" />
