@@ -14,9 +14,9 @@ const Footer = () => {
                 <div className="footer-section">
                     <img src={logo} alt="" style={{margin: '0 auto'}} />
                     <div className="social">
-                    <a href="https://twitter.com/BorgarNFT" target="_blank" rel="noopener noreferrer nofollow">
+                    {/* <a href="https://twitter.com/BorgarNFT" target="_blank" rel="noopener noreferrer nofollow">
                     <img src={opensea} alt="Logo" />
-                    </a>
+                    </a> */}
                     <a href="https://discord.gg/borgar" target="_blank" rel="noopener noreferrer nofollow">
                     <img src={discord} alt="Logo" />
                     </a>
