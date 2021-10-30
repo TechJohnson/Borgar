@@ -11,7 +11,7 @@ import "./styles/theme.css";
 import "./styles/main-style.css";
 import discord from './images/discord-icon-small.png';
 import twitter from './images/twitter-icon-small.png';
-import opensea from './images/opensea-icon-small.png';
+// import opensea from './images/opensea-icon-small.png';
 import logo from './images/borgar-logo.png';
 import thong from './images/borgar-thong.png';
 import borgarBlack from './images/borgar-black.png';

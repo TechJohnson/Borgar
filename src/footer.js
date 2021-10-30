@@ -2,7 +2,7 @@ import React from "react";
 import logo from './images/borgar-logo.png';
 import discord from './images/discord-icon-small.png';
 import twitter from './images/twitter-icon-small.png';
-import opensea from './images/opensea-icon-small.png';
+// import opensea from './images/opensea-icon-small.png';
 
 
 const Footer = () => {
