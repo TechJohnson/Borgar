@@ -10,6 +10,9 @@ const Footer = () => {
     return (
 
         <div className="footer">
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
             <div className="container">
                 <div className="footer-section">
                     <img src={logo} alt="" style={{margin: '0 auto'}} />
