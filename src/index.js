@@ -17,6 +17,7 @@ import thong from './images/borgar-thong.png';
 import borgarBlack from './images/borgar-black.png';
 import AboutSection from "./about-us";
 import Footer from "./footer";
+import MeetUs from "./meet-us";
 
 ReactDOM.render(
   <Provider store={store}>
@@ -27,7 +28,7 @@ ReactDOM.render(
         <nav className="nav">
           <a href="/"><img src={logo} alt="" style={{width: '150px'}} /></a>
           <div className="nav-copy">
-            <a href="/" className="links">Meet the Team</a>
+            <a href="#team" className="links">Meet the Team</a>
             <a href="#faq" className="links">FAQs</a>
             {/* <App /> */}
           </div>
@@ -109,13 +110,16 @@ ReactDOM.render(
 
       <AboutSection />
 
+      <MeetUs />
+
       <Footer />
 
     </main>
-
+    
 
   </Provider>,
   document.getElementById("root")
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

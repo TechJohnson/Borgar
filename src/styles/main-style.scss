@@ -302,6 +302,60 @@ body {
             }
         }
     }
+
+    .box-team-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .about-box {
+            display: flex;
+            align-items: flex-start;
+            background: rgba($color: #938AA5, $alpha: .06);
+            border-radius: 10px;
+            width: 32%;
+            padding: 30px;
+            margin: 10px 0;
+            a {
+                color: #0FF289;
+            }
+            img {
+                height: 100%;
+                padding-right: 30px;
+            }
+            h2 {
+                color: $white;
+                font-size: 20px;
+                padding-bottom: 15px;
+            }
+            p {
+                padding: 0;
+                margin: 0;
+            }
+            .content {
+                padding-left: 15px;
+            }
+            .step-mint {
+                font-size: 16px;
+                font-weight: 700;
+                color: #0FF289;
+                padding: 0;
+                margin: -5px 0 0 0;    
+            }
+            .step-time {
+                font-size: 16px;
+                font-weight: 700;
+                color: #7836FF;
+                padding: 0;
+                margin: -5px 0 0 0;    
+            }
+            .team-number {
+                font-size: 16px;
+                font-weight: 700;
+                color: #0FF289;
+                padding: 0;
+            }
+        }
+    }
     
     .footer-section {
         display: flex;
@@ -624,6 +678,60 @@ body {
                 color: #7836FF;
                 padding: 0;
                 margin: -5px 0 0 0;    
+            }
+        }
+    }
+
+    .box-team-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .about-box {
+            display: flex;
+            align-items: flex-start;
+            background: rgba($color: #938AA5, $alpha: .06);
+            border-radius: 10px;
+            width: 32%;
+            padding: 30px;
+            margin: 10px 0;
+            a {
+                color: #0FF289;
+            }
+            img {
+                height: 100%;
+                padding-right: 30px;
+            }
+            h2 {
+                color: $white;
+                font-size: 20px;
+                padding-bottom: 15px;
+            }
+            p {
+                padding: 0;
+                margin: 0;
+            }
+            .content {
+                padding-left: 15px;
+            }
+            .step-mint {
+                font-size: 16px;
+                font-weight: 700;
+                color: #0FF289;
+                padding: 0;
+                margin: -5px 0 0 0;    
+            }
+            .step-time {
+                font-size: 16px;
+                font-weight: 700;
+                color: #7836FF;
+                padding: 0;
+                margin: -5px 0 0 0;    
+            }
+            .team-number {
+                font-size: 16px;
+                font-weight: 700;
+                color: #0FF289;
+                padding: 0;
             }
         }
     }

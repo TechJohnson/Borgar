@@ -343,6 +343,68 @@ body {
     padding: 0;
     margin: -5px 0 0 0;
   }
+  .box-team-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .box-team-section .about-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background: rgba(147, 138, 165, 0.06);
+    border-radius: 10px;
+    width: 32%;
+    padding: 30px;
+    margin: 10px 0;
+  }
+  .box-team-section .about-box a {
+    color: #0FF289;
+  }
+  .box-team-section .about-box img {
+    height: 100%;
+    padding-right: 30px;
+  }
+  .box-team-section .about-box h2 {
+    color: #ffffff;
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+  .box-team-section .about-box p {
+    padding: 0;
+    margin: 0;
+  }
+  .box-team-section .about-box .content {
+    padding-left: 15px;
+  }
+  .box-team-section .about-box .step-mint {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0FF289;
+    padding: 0;
+    margin: -5px 0 0 0;
+  }
+  .box-team-section .about-box .step-time {
+    font-size: 16px;
+    font-weight: 700;
+    color: #7836FF;
+    padding: 0;
+    margin: -5px 0 0 0;
+  }
+  .box-team-section .about-box .team-number {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0FF289;
+    padding: 0;
+  }
   .footer-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -733,6 +795,68 @@ body {
     color: #7836FF;
     padding: 0;
     margin: -5px 0 0 0;
+  }
+  .box-team-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .box-team-section .about-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background: rgba(147, 138, 165, 0.06);
+    border-radius: 10px;
+    width: 32%;
+    padding: 30px;
+    margin: 10px 0;
+  }
+  .box-team-section .about-box a {
+    color: #0FF289;
+  }
+  .box-team-section .about-box img {
+    height: 100%;
+    padding-right: 30px;
+  }
+  .box-team-section .about-box h2 {
+    color: #ffffff;
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+  .box-team-section .about-box p {
+    padding: 0;
+    margin: 0;
+  }
+  .box-team-section .about-box .content {
+    padding-left: 15px;
+  }
+  .box-team-section .about-box .step-mint {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0FF289;
+    padding: 0;
+    margin: -5px 0 0 0;
+  }
+  .box-team-section .about-box .step-time {
+    font-size: 16px;
+    font-weight: 700;
+    color: #7836FF;
+    padding: 0;
+    margin: -5px 0 0 0;
+  }
+  .box-team-section .about-box .team-number {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0FF289;
+    padding: 0;
   }
   .footer-section {
     display: -webkit-box;
