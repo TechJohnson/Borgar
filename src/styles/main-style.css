@@ -815,7 +815,7 @@ body {
             align-items: flex-start;
     background: rgba(147, 138, 165, 0.06);
     border-radius: 10px;
-    width: 32%;
+    width: 100%;
     padding: 30px;
     margin: 10px 0;
   }
