@@ -43,7 +43,6 @@ function Home() {
 
 
     <main className="main-content">
-
       <div className="ntf-section">
         <div className="container">
           <div className="twoSplit">
