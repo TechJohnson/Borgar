@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 // Used for wrapping a page component
 export const Screen = styled.div`
-  // background-color: var(--dark-grey);
-  // background-image: ${({ image }) => (image ? `url(${image})` : "none")};
-  // background-size: cover;
-  // background-position: center;
-  // width: 100%;
-  // min-height: 100vh;
-  // display: flex;
-  // flex-direction: column;
+  background-color: var(--primary);
+  background-image: ${({ image }) => (image ? `url(${image})` : "none")};
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 `;
 
 // Used for providing space between components
@@ -20,8 +20,8 @@ export const SpacerXSmall = styled.div`
 
 // Used for providing space between components
 export const SpacerSmall = styled.div`
-  height: 0;
-  width: 0;
+  height: 16px;
+  width: 16px;
 `;
 
 // Used for providing space between components
@@ -51,21 +51,22 @@ export const Container = styled.div`
 `;
 
 export const TextTitle = styled.p`
-  color: var(--white);
-  font-size: 20px;
+  color: var(--primary-text);
+  font-size: 22px;
   font-weight: 500;
+  line-height: 1.6;
 `;
 
 export const TextSubTitle = styled.p`
-  color: var(--white);
-  font-size: 16px;
-  font-weight: 500;
+  color: var(--primary-text);
+  font-size: 18px;
+  line-height: 1.6;
 `;
 
 export const TextDescription = styled.p`
-  color: var(--white);
-  font-size: 14px;
-  font-weight: 600;
+  color: var(--primary-text);
+  font-size: 16px;
+  line-height: 1.6;
 `;
 
 export const StyledClickable = styled.div`

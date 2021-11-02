@@ -433,6 +433,19 @@ body {
     padding-top: 50px;
     margin: 0;
   }
+  .mint-me {
+    font-family: 'Open Sans', sans-serif;
+    background: #ffffff;
+    border: none;
+    color: #241347;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 50px;
+    margin: 0 0 0 40px;
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -885,6 +898,19 @@ body {
     text-align: center;
     padding-top: 50px;
     margin: 0;
+  }
+  .mint-me {
+    font-family: 'Open Sans', sans-serif;
+    background: #ffffff;
+    border: none;
+    color: #241347;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 50px;
+    margin: 15px 0 0 0;
+    cursor: pointer;
   }
 }
 /*# sourceMappingURL=main-style.css.map */

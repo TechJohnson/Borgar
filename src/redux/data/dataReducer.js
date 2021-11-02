@@ -1,6 +1,7 @@
 const initialState = {
   loading: false,
-  name: "",
+  totalSupply: 0,
+  cost: 0,
   error: false,
   errorMsg: "",
 };
@@ -9,14 +10,19 @@ const dataReducer = (state = initialState, action) => {
   switch (action.type) {
     case "CHECK_DATA_REQUEST":
       return {
-        ...initialState,
+        ...state,
         loading: true,
+        error: false,
+        errorMsg: "",
       };
     case "CHECK_DATA_SUCCESS":
       return {
-        ...initialState,
+        ...state,
         loading: false,
-        name: action.payload.name,
+        totalSupply: action.payload.totalSupply,
+        // cost: action.payload.cost,
+        error: false,
+        errorMsg: "",
       };
     case "CHECK_DATA_FAILED":
       return {
